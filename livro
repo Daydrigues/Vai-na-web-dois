@@ -1,0 +1,115 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Livros Vai na Web
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="font-sans">
+  <header class="bg-blue-900 text-white">
+   <div class="container mx-auto flex justify-between items-center py-4 px-6">
+    <div class="flex items-center">
+     <img alt="Logo of Livros Vai na Web" class="mr-3" height="40" src="https://storage.googleapis.com/a1aa/image/ZB1tqGmXf43RFiyg7eG5is1Bdjhe0bkAzyuxL7hetX0jEqeeE.jpg" width="40"/>
+     <h1 class="text-xl font-bold">
+      Livros Vai na Web
+     </h1>
+    </div>
+    <nav class="hidden md:flex space-x-6">
+     <a class="hover:text-gray-300" href="#">
+      Início
+     </a>
+     <a class="hover:text-gray-300" href="#">
+      Livros Doaados
+     </a>
+     <a class="hover:text-gray-300" href="#">
+      Quero Doar
+     </a>
+    </nav>
+    <div class="relative">
+     <input class="rounded-full py-2 px-4 text-black" placeholder="O que você procura?" type="text"/>
+     <i class="fas fa-search absolute right-3 top-3 text-gray-500">
+     </i>
+    </div>
+   </div>
+  </header>
+  <section class="relative">
+   <img alt="Person holding a stack of books" class="w-full h-64 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/zKWDhdmTpTocGF0MglQmdE0ed8RhV7fLaqDfHPLA0refIU9eE.jpg" width="1200"/>
+   <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+    <h2 class="text-white text-3xl font-bold">
+     VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO
+    </h2>
+   </div>
+  </section>
+  <section class="py-12 bg-white">
+   <div class="container mx-auto text-center">
+    <h3 class="text-2xl font-bold text-blue-900 mb-8">
+     Por que devo doar?
+    </h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+     <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+      <i class="fas fa-book-open text-4xl text-blue-900 mb-4">
+      </i>
+      <p>
+       Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social.
+      </p>
+     </div>
+     <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+      <i class="fas fa-user-graduate text-4xl text-blue-900 mb-4">
+      </i>
+      <p>
+       Estimula o hábito da leitura e o aprendizado contínuo.
+      </p>
+     </div>
+     <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+      <i class="fas fa-lightbulb text-4xl text-blue-900 mb-4">
+      </i>
+      <p>
+       Fornece conhecimento e inspiração, permitindo que indivíduos transformem suas vidas.
+      </p>
+     </div>
+     <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+      <i class="fas fa-balance-scale text-4xl text-blue-900 mb-4">
+      </i>
+      <p>
+       Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <footer class="bg-blue-900 text-white py-6">
+   <div class="container mx-auto flex justify-between items-center">
+    <p>
+     4002-8922
+    </p>
+    <div class="flex space-x-4">
+     <a class="hover:text-gray-300" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a class="hover:text-gray-300" href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a class="hover:text-gray-300" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+     <a class="hover:text-gray-300" href="#">
+      <i class="fab fa-youtube">
+      </i>
+     </a>
+    </div>
+   </div>
+   <div class="text-center mt-4">
+    <p>
+     Layout desenvolvido pela Vai na Web para fins educativos - 2024
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>
