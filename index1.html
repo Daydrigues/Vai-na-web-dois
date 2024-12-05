@@ -1,0 +1,83 @@
+<html>
+<head>
+    <title>Livros Vai na Web</title>
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div id="root"></div>
+    <script type="text/babel">
+        const App = () => {
+            return (
+                <div>
+                    <header className="bg-blue-900 text-white p-4 flex justify-between items-center">
+                        <div className="flex items-center">
+                            <img src="https://placehold.co/50x50" alt="Logo" className="mr-2"/>
+                            <h1 className="text-xl font-bold">Livros Vai na Web</h1>
+                        </div>
+                        <nav className="flex space-x-4">
+                            <a href="#" className="hover:underline">Início</a>
+                            <a href="#" className="hover:underline">Livros Doaados</a>
+                            <a href="#" className="hover:underline">Quero Doar</a>
+                        </nav>
+                        <div className="relative">
+                            <input type="text" placeholder="O que você procura?" className="p-2 rounded"/>
+                            <i className="fas fa-search absolute right-2 top-2 text-gray-500"></i>
+                        </div>
+                    </header>
+                    <main>
+                        <section className="relative">
+                            <img src="https://placehold.co/1200x400" alt="Pessoa segurando livros" className="w-full"/>
+                            <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50">
+                                <h2 className="text-white text-3xl font-bold">VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO</h2>
+                            </div>
+                        </section>
+                        <section className="p-8">
+                            <h3 className="text-2xl font-bold text-blue-900 mb-4">Por que devo doar?</h3>
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                                <div className="bg-gray-200 p-4 rounded text-center">
+                                    <i className="fas fa-book-open text-4xl text-blue-900 mb-2"></i>
+                                    <p>Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social.</p>
+                                </div>
+                                <div className="bg-gray-200 p-4 rounded text-center">
+                                    <i className="fas fa-user-graduate text-4xl text-blue-900 mb-2"></i>
+                                    <p>Estimula o hábito da leitura e o aprendizado contínuo.</p>
+                                </div>
+                                <div className="bg-gray-200 p-4 rounded text-center">
+                                    <i className="fas fa-lightbulb text-4xl text-blue-900 mb-2"></i>
+                                    <p>Fornece conhecimento e inspiração, permitindo que mais indivíduos transformem suas vidas.</p>
+                                </div>
+                                <div className="bg-gray-200 p-4 rounded text-center">
+                                    <i className="fas fa-balance-scale text-4xl text-blue-900 mb-2"></i>
+                                    <p>Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado.</p>
+                                </div>
+                            </div>
+                        </section>
+                    </main>
+                    <footer className="bg-blue-900 text-white p-4 text-center">
+                        <p>4002-8922</p>
+                        <div className="flex justify-center space-x-4 my-2">
+                            <i className="fab fa-facebook-f"></i>
+                            <i className="fab fa-twitter"></i>
+                            <i className="fab fa-instagram"></i>
+                            <i className="fab fa-youtube"></i>
+                        </div>
+                        <p>Layout desenvolvido pela Vai na Web para fins educativos - 2024</p>
+                    </footer>
+                </div>
+            );
+        };
+
+        ReactDOM.render(<App />, document.getElementById('root'));
+    </script>
+</body>
+</html>
